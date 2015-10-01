@@ -4,7 +4,7 @@
 		"id": "side-bar-start-separator"
 	},
 	{
-		"caption": "New File…",
+		"caption": "新しいファイル…",
 		"id": "side-bar-new-file",
 		"command": "side_bar_new_file",
 		"args": {
@@ -12,7 +12,7 @@
 		}
 	},
 	{
-		"caption": "New Folder…",
+		"caption": "新しいフォルダ…",
 		"id": "side-bar-new-directory",
 		"command": "side_bar_new_directory",
 		"args": {
@@ -25,7 +25,7 @@
 	},
 
 	{
-		"caption": "Edit",
+		"caption": "開く",
 		"id": "side-bar-edit",
 		"command": "side_bar_edit",
 		"args": {
@@ -33,7 +33,7 @@
 		}
 	},
 	{
-		"caption": "Edit to Right",
+		"caption": "右で開く",
 		"id": "side-bar-edit-to-right",
 		"command": "side_bar_edit_to_right",
 		"args": {
@@ -41,7 +41,7 @@
 		}
 	},
 	{
-		"caption": "Open / Run",
+		"caption": "実行",
 		"id": "side-bar-open",
 		"command": "side_bar_open",
 		"args": {
@@ -49,7 +49,7 @@
 		}
 	},
 	{
-		"caption": "Open In Browser",
+		"caption": "ブラウザで開く",
 		"id": "side-bar-open-in-browser",
 		"command": "side_bar_open_in_browser",
 		"args": {
@@ -57,7 +57,7 @@
 		}
 	},
 	{
-		"caption": "Open In New Window",
+		"caption": "新しいウィンドウで開く",
 		"id": "side-bar-open-in-new-window",
 		"command": "side_bar_open_in_new_window",
 		"args": {
@@ -65,7 +65,7 @@
 		}
 	},
 	{
-		"caption": "Open With Finder",
+		"caption": "ファインダーで開く",
 		"id": "side-bar-open-with-finde",
 		"command": "side_bar_open_with_finder",
 		"args": {
@@ -73,7 +73,7 @@
 		}
 	},
 	{
-		"caption": "Open With",
+		"caption": "プログラムを指定して開く",
 		"id": "side-bar-files-open-with",
 
 		"children": [
@@ -83,7 +83,7 @@
 				"id": "side-bar-files-open-with-edit-application-separator"
 			},
 			{
-				"caption": "Edit Applications…",
+				"caption": "アプリケーションの修正…",
 				"id": "side-bar-files-open-with-edit-applications",
 				"command": "side_bar_files_open_with_edit_applications",
 				"args": {
@@ -98,7 +98,7 @@
 		]
 	},
 	{
-		"caption": "Reveal",
+		"caption": "展開",
 		"id": "side-bar-reveal",
 		"command": "side_bar_reveal",
 		"args": {
@@ -112,7 +112,7 @@
 	},
 
 	{
-		"caption": "Find & Replace…",
+		"caption": "検索&置換",
 		"id": "side-bar-find-selected",
 		"command": "side_bar_find_in_selected",
 		"args": {
@@ -120,7 +120,7 @@
 		}
 	},
 	{
-		"caption": "Find Files Named…",
+		"caption": "ファイル名の検査…",
 		"id": "side-bar-find-files",
 		"command": "side_bar_find_files_path_containing",
 		"args": {
@@ -128,7 +128,7 @@
 		}
 	},
 	{
-		"caption": "Find Advanced",
+		"caption": "カスタム検索",
 		"id": "side-bar-find-advanced",
 		"children": [
 			{
@@ -144,7 +144,7 @@
 				"id": "side-bar-find-parent-separator"
 			},
 			{
-				"caption": "In Project…",
+				"caption": "プロジェクト内…",
 				"id": "side-bar-find-in-project",
 				"command": "side_bar_find_in_project",
 				"args": {
@@ -152,7 +152,7 @@
 				}
 			},
 			{
-				"caption": "In Project Folder…",
+				"caption": "プロジェクトフォルダ…",
 				"id": "side-bar-find-project-folder",
 				"command": "side_bar_find_in_project_folder",
 				"args": {
@@ -160,7 +160,7 @@
 				}
 			},
 			{
-				"caption": "In Project Folders…",
+				"caption": "すべてのプロジェクトフォルダ…",
 				"id": "side-bar-find-project-folders",
 				"command": "side_bar_find_in_project_folders"
 			},
@@ -203,7 +203,7 @@
 		"id": "side-bar-find-separator"
 	},
 	{
-		"caption": "Cut",
+		"caption": "カット",
 		"id": "side-bar-clip-cut",
 		"command": "side_bar_cut",
 		"args": {
@@ -211,7 +211,7 @@
 		}
 	},
 	{
-		"caption": "Copy",
+		"caption": "コピー",
 		"id": "side-bar-clip-copy",
 		"command": "side_bar_copy",
 		"args": {
@@ -219,7 +219,7 @@
 		}
 	},
 	{
-		"caption": "Copy Name",
+		"caption": "名前のコピー",
 		"id": "side-bar-clip-copy-name",
 		"command": "side_bar_copy_name",
 		"args": {
@@ -227,7 +227,7 @@
 		}
 	},
 	{
-		"caption": "Copy Path",
+		"caption": "パスのコピー",
 		"id": "side-bar-clip-copy-path",
 		"command": "side_bar_copy_path_absolute_from_project_encoded",
 		"args": {
@@ -235,7 +235,7 @@
 		}
 	},
 	{
-		"caption": "Copy Dir Path",
+		"caption": "ディレクトリパスのコピー",
 		"id": "side-bar-clip-copy-dir-path",
 		"command": "side_bar_copy_dir_path",
 		"args": {
@@ -243,7 +243,7 @@
 		}
 	},
 	{
-		"caption": "Copy as Text",
+		"caption": "テキストにコピー",
 		"id": "side-bar-clip-copy-as",
 		"children": [
 			{
@@ -432,7 +432,7 @@
 	},
 
 	{
-		"caption": "Paste",
+		"caption": "ペースト",
 		"id": "side-bar-clip-paste",
 		"command": "side_bar_paste",
 		"args": {
@@ -441,7 +441,7 @@
 		}
 	},
 	{
-		"caption": "Paste in Parent",
+		"caption": "親にコピー",
 		"id": "side-bar-clip-paste-in-parent",
 		"command": "side_bar_paste",
 		"args": {
@@ -454,7 +454,7 @@
 		"id": "side-bar-clip-separator"
 	},
 	{
-		"caption": "Duplicate…",
+		"caption": "複製…",
 		"id": "side-bar-duplicate",
 		"command": "side_bar_duplicate",
 		"args": {
@@ -467,7 +467,7 @@
 	},
 
 	{
-		"caption": "Rename…",
+		"caption": "リネーム…",
 		"id": "side-bar-rename",
 		"command": "side_bar_rename",
 		"args": {
@@ -475,7 +475,7 @@
 		}
 	},
 	{
-		"caption": "Move…",
+		"caption": "移動…",
 		"id": "side-bar-move",
 		"command": "side_bar_move",
 		"args": {
@@ -488,7 +488,7 @@
 	},
 
 	{
-		"caption": "Delete",
+		"caption": "削除",
 		"id": "side-bar-delete",
 		"command": "side_bar_delete",
 		"args": {
@@ -509,7 +509,7 @@
 	},
 
 	{
-		"caption": "Refresh",
+		"caption": "リフレッシュ",
 		"id": "side-bar-refresh",
 		"command": "refresh_folder_list"
 	},
@@ -518,7 +518,7 @@
 		"id": "side-bar-refresh-separator"
 	},
 	{
-		"caption": "Project",
+		"caption": "プロジェクト",
 		"id": "side-bar-project",
 		"children": [
 			{
@@ -614,7 +614,7 @@
 		"id": "side-bar-donate-separator"
 	},
 	{
-		"caption": "Donate",
+		"caption": "寄付",
 		"command": "side_bar_donate",
 		"args": {
 			"paths": []
